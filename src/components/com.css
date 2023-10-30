@@ -1,0 +1,37 @@
+.header {
+    background-color: #2f3953;
+    border-radius: 0 0 10px 10px;
+    padding: 10px 40px;
+    color: white;
+    position: relative;
+}
+
+.nav-item {
+    margin-left: 15px;
+    color: #9ca4b8;
+    font-weight: 400;
+}
+
+.nav-item:hover {
+    color: #cacdd6;
+}
+
+.price {
+    color: #9292aa;
+}
+
+.decription {
+    color: white;
+}
+
+.bg-color {
+    background: #2f3953;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    position: absolute;
+    opacity: 90%;
+}
