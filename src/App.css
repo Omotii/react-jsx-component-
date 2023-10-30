@@ -10,3 +10,14 @@
     height: 270px;
     overflow: hidden;
 }
+
+.buttom-p {
+    position: relative;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 1.2rem;
+    width: 100%;
+
+}

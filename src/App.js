@@ -15,6 +15,8 @@ import "./App.css";
  component created in Image.js is used since i found it easier to implement */
 
 function App() {
+  const name = "Martin";
+
   return (
     <div>
       <BacgroundColor />
@@ -34,6 +36,7 @@ function App() {
           </Card.Text>
         </Card.Body>
       </Card>
+      <p className="mt-3 buttom-p">Hello, {name}!</p>
     </div>
   );
 }
