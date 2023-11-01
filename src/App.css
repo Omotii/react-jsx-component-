@@ -13,11 +13,28 @@
 
 .buttom-p {
     position: relative;
-    width: 150px;
     text-align: center;
     font-weight: bold;
     color: white;
     font-size: 1.2rem;
-    width: 100%;
+}
 
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 20px;
+}
+
+.user-image {
+    border-radius: 100%;
+    margin-left: 10px;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+}
+.user-image img {
+    width: 100%;
 }

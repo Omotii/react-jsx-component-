@@ -36,7 +36,10 @@ function App() {
           </Card.Text>
         </Card.Body>
       </Card>
-      <p className="mt-3 buttom-p">Hello, {name}!</p>
+      <div className="wrapper">
+      <p className="mt-3 buttom-p">Hello, { name ? name : "dear"}!</p>
+      {name && <div className="user-image"><img src='/image/chemicals.jpg' alt='user'/></div>} 
+      </div>
     </div>
   );
 }

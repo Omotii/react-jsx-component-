@@ -3,7 +3,7 @@ import products from "../product";
 const Image = () => {
     return (
         <>
-        <div>{products.image}</div>
+        <div>{products.imageUrl}</div>
         </>
     )
 }
